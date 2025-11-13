@@ -9,7 +9,6 @@ import {
     StyleSheet,
 } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
-//pushing and commiting
 const QuizQuestion = ({ index, question, imageUri, options, value, onChange }) => {
     return (
         <View style={styles.card}>
